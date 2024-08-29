@@ -7,6 +7,10 @@
     height: 100vh; /* Opzionale: per occupare tutta l'altezza del viewport */
 /* } */
 
+#title {
+    text-align-last: center;
+}
+
 .loaderContainer {
     display: flex;
     justify-content: center;
