@@ -7,8 +7,9 @@
     height: 100vh; /* Opzionale: per occupare tutta l'altezza del viewport */
 /* } */
 
-#title {
+.title {
     text-align-last: center;
+    font-style: italic;
 }
 
 .loaderContainer {
