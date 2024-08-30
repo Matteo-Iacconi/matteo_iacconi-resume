@@ -133,7 +133,20 @@ body {
 
 
 .imgPhoto {
-    width: 30%;
+    width: 50%;
     margin-top: 10%;
     border-radius: 3%;
+}
+
+
+.big-text {
+    font-size: 2rem; /* Dimensione del testo grande */
+    font-weight: bold;
+    color: whitesmoke;
+    margin-right: 5rem;
+}
+
+.specialP {
+    color: #3995f1;
+    text-wrap: nowrap;
 }
