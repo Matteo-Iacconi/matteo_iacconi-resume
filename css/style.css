@@ -195,3 +195,18 @@ body {
 .link {
     text-decoration: none;
 }
+
+#aboutMe {
+    margin: 20rem 0 20rem 5rem;
+    padding-top: 4rem;
+}
+
+#carouselProjectCaptions {
+    margin: 20rem 0 20rem 0;
+    padding: 4rem 0;
+}
+
+#abMeTitle {
+    scroll-margin-top: 15rem; 
+    scroll-margin: 15rem;
+  }
