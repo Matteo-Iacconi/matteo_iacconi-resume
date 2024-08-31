@@ -92,20 +92,28 @@
     border-radius: 3rem;
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    border: none;
+    outline: none;
+    scroll-behavior: none;
+    font-family: "Poppins", sans-serif;
+    ;
+    color: whitesmoke;
 }
 
 html {
-    background: #272c31;
-    color: whitesmoke;
+    overflow-x: hidden;
 }
 
 body {
     background: #272c31 !important;
     color: whitesmoke;
 }
+
 
 @media only screen and (min-width: 992px) {
 
@@ -123,7 +131,8 @@ body {
         background-color: greenyellow;
         position: absolute;
         bottom: 0;
-        left: 0
+        left: 0;
+        /* color: white; */
     }
 
     .nav-link:hover::after {
@@ -140,13 +149,42 @@ body {
 
 
 .big-text {
-    font-size: 2rem; /* Dimensione del testo grande */
+    font-size: 2rem;
     font-weight: bold;
     color: whitesmoke;
     margin-right: 5rem;
 }
 
 .specialP {
-    color: #3995f1;
+    color: #3995f1 !important;
     text-wrap: nowrap;
+}
+
+
+.btnCustom {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btnCV {
+    background-color: #007bff;
+    margin-right: 1rem;
+}
+
+.btnCV:hover {
+    background-color: #0056b3;
+}
+
+.btnContactMe {
+    background-color: #dc3545;
+    margin-left: .5rem;
+}
+
+.btnContactMe:hover {
+    background-color: #c82333;
 }
