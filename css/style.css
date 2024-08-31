@@ -191,3 +191,7 @@ body {
 .btnContactMe:hover {
     background-color: #c82333;
 }
+
+.link {
+    text-decoration: none;
+}

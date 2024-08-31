@@ -33,7 +33,7 @@
             <a class="nav-link" href="#aboutMe">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#carouselProjectCaptions">Projects</a>
           </li>
         </ul>
       </div>
@@ -73,7 +73,7 @@
 
 
   <!-- ABOUT ME -->
-  <div class="mt-5 mb-5 container" data-aos="fade-up">
+  <div class="mt-5 my-5 container" data-aos="fade-up">
     <h2 id="aboutMe">About Me</h2>
     <p>
       Sono appassionato di sviluppo web in tutte le sue sfaccettature. <br> Dalla progettazione dell'interfaccia utente allo
@@ -85,7 +85,48 @@
 
 
 
+<!-- carousel projects -->
 
+<div id="carouselProjectCaptions" class="carousel slide my-5" data-bs-ride="carousel" data-aos-anchor-placement="top-center">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselProjectCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselProjectCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselProjectCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner my-5" data-aos="fade-up" data-aos-duration="1000">
+    <div class="carousel-item active">
+      <img src="img/logo_Cosplay.png" class="d-block w-50" alt="logo gioco in C#" title="logo gioco in C#">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Videogioco Cosplay Rumble</h5>
+        <p>Realizzato in C#  - 
+          <a class="link" href="https://matteo1899.itch.io/cosplay-rumble" target="_blank">Link alla pagina</a>
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/portfolio.png" class="d-block w-50" alt="portfolio">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Portfolio</h5>
+        <p>HTML, CSS, JQUERY, Bootstrap, AOS</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/caffe no bg.png" class="d-block w-50" alt="caffe">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Sito DB caffe'</h5>
+        <p>Progetto: Sito con priorità al back-end, con DB e operazioni CRUD</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjectCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselProjectCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 
 
