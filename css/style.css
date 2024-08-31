@@ -161,9 +161,12 @@ body {
 }
 
 .button-container {
-    display: flex; /* Utilizza Flexbox per allineare gli elementi */
-    gap: 1rem; /* Aggiungi uno spazio uniforme tra i pulsanti */
-    align-items: center; /* Allinea verticalmente i pulsanti */
+    display: flex;
+    /* Utilizza Flexbox per allineare gli elementi */
+    gap: 1rem;
+    /* Aggiungi uno spazio uniforme tra i pulsanti */
+    align-items: center;
+    /* Allinea verticalmente i pulsanti */
 }
 
 .btnCustom {
@@ -207,6 +210,16 @@ body {
 }
 
 #abMeTitle {
-    scroll-margin-top: 15rem; 
-    scroll-margin: 15rem;
-  }
+    scroll-margin-top: 15rem;
+    scroll-margin: 10rem;
+}
+
+.imgAboutMe img {
+    margin-top: 5rem;
+    max-width: 50%;
+    max-height: 50%
+}
+
+.logoFitstic {
+    fill:white;
+}
