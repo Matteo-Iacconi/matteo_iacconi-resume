@@ -142,10 +142,11 @@ body {
 
 
 .imgPhoto {
-    width: 50%;
-    margin-top: 10%;
+    width: 100%;
+    /* margin-top: 10%; */
     border-radius: 3%;
 }
+
 
 
 .big-text {
@@ -160,6 +161,11 @@ body {
     text-wrap: nowrap;
 }
 
+.button-container {
+    display: flex; /* Utilizza Flexbox per allineare gli elementi */
+    gap: 1rem; /* Aggiungi uno spazio uniforme tra i pulsanti */
+    align-items: center; /* Allinea verticalmente i pulsanti */
+}
 
 .btnCustom {
     padding: 10px 20px;
@@ -173,7 +179,6 @@ body {
 
 .btnCV {
     background-color: #007bff;
-    margin-right: 1rem;
 }
 
 .btnCV:hover {
@@ -182,7 +187,6 @@ body {
 
 .btnContactMe {
     background-color: #dc3545;
-    margin-left: .5rem;
 }
 
 .btnContactMe:hover {
